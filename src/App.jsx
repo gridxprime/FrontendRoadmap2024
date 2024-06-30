@@ -1,6 +1,12 @@
 import React from 'react'
 import './App.css'
 import './media.css'
+import htmlcss from './assets/img/section/htmlcss.png'
+import js from './assets/img/section/js.png'
+import jsplus from './assets/img/section/jsplus.png'
+import git from './assets/img/section/git.png'
+import framework from './assets/img/section/framework.png'
+
 
 function App() {
 
@@ -24,11 +30,13 @@ function App() {
           </div>
           <div className="center"></div>
           <div className="right">
-          
+            <img src={htmlcss} alt="" />
             </div>
       </section>
-      <section>
-      <div className="left"></div>
+      <section className='second'>
+      <div className="left">
+        <img src={js} alt="" />
+      </div>
           <div className="center"></div>
           <div className="right">
             <span className='section__title'>JavaScript basics</span>
@@ -41,7 +49,7 @@ function App() {
             </ul>
             </div>
       </section>
-      <section>
+      <section className='third'>
       <div className="left">
         <span className="section__title">
           Advanced JavaScript
@@ -55,11 +63,13 @@ function App() {
       </div>
           <div className="center"></div>
           <div className="right">
-
+        <img src={jsplus} alt="" />
             </div>
       </section>
-      <section>
-      <div className="left"></div>
+      <section className='fourth'>
+      <div className="left">
+        <img src={git} alt="" />
+      </div>
           <div className="center"></div>
           <div className="right">
             <span className='section__title'>Version Control</span>
@@ -70,7 +80,7 @@ function App() {
             </ul>
             </div>
       </section>
-      <section>
+      <section className='fiveth'>
       <div className="left">
         <span className="section__title">
           Frameworks and libraries (React)
@@ -83,16 +93,27 @@ function App() {
         </ul>
         <ul>
           <b>Other fremeworks</b> (optionally)
-          <li>Vue.jsx</li>
+          <li>Vue.js</li>
           <li>Angular</li>
         </ul>
       </div>
           <div className="center"></div>
           <div className="right">
-
+<img src={framework} alt="" />
             </div>
       </section>
-
+      <section className='sixth'>
+      <div className="left"></div>
+          <div className="center"></div>
+          <div className="right">
+            <span className='section__title'>Stylization</span>
+            <ul>
+              <li>CSS Preprocessors (SASS, Less)</li>
+              <li>CSS in JS (Styled Components, Emotion)</li>
+              <li>UI Libraries (Bootstrap, Tailwind CSS, Material UI)</li>
+            </ul>
+            </div>
+      </section>
 
       </main>
       <footer>
