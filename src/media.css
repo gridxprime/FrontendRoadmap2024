@@ -32,6 +32,7 @@
         min-height: 10vh;
         border-bottom: 3px solid #26ffdf;
         justify-content: start;
+        box-shadow: inset #000 0px 10px 5px;
     }
     section img{
         width: 50%;
