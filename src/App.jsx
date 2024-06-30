@@ -6,7 +6,7 @@ import js from './assets/img/section/js.png'
 import jsplus from './assets/img/section/jsplus.png'
 import git from './assets/img/section/git.png'
 import framework from './assets/img/section/framework.png'
-
+import vid30fps from './assets/vid/videobg1.mp4'
 
 function App() {
 
@@ -17,6 +17,20 @@ function App() {
       <h2>Frontend Roadmap 2024</h2>
     </header>
     <main>
+      <section className='hero'>
+
+        <video className='video' src={vid30fps} autoPlay muted loop></video>
+        <div className='inner'>
+          <span>Become a Frontend Developer today!
+            
+           Follow the roadmap outlined below to master the essential skills and tools needed in 2024.
+
+</span>
+        </div>
+      </section>
+
+
+
       <section className='start'>
           <div className="left">
             <span className='section__title'>HTML/CSS</span>
