@@ -1,7 +1,12 @@
 @media all and (max-width: 800px) {
     section{
         gap: 20px;
+        min-height: 10vh;
         
+    }
+
+    .hero{
+        min-height: 100vh;
     }
     section img{
         max-width: 80%;
@@ -24,7 +29,9 @@
         padding: 20px 7px;
         flex-direction: column;
         width: 100%;
-        border-bottom: 3px solid #26ffdf;;
+        min-height: 10vh;
+        border-bottom: 3px solid #26ffdf;
+        justify-content: start;
     }
     section img{
         width: 50%;
