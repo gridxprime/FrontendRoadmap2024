@@ -1,0 +1,22 @@
+@media all and (max-width: 800px) {
+    section{
+        gap: 20px;
+ 
+    }
+    .left, .right{
+        width: 50vw;
+        padding: 0 10px;
+      }
+
+      footer{
+        padding: 10px 5px;
+      }
+}
+
+
+
+@media all and (max-width: 400px){
+    section{
+        padding: 20px 0;
+    }
+}
