@@ -109,6 +109,7 @@ section{
 section img{
   max-width: 100%;
   align-self: flex-end;
+  filter: drop-shadow(#00000077 5px 5px 3px);
 }
 
 section ul{
@@ -190,7 +191,10 @@ footer a{
 
 .fourth{
   background: #08a696;
+
 }
+
+
 
 .fiveth{
   background: #2f2f2f;

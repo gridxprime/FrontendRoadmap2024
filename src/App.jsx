@@ -6,6 +6,8 @@ import js from './assets/img/section/js.png'
 import jsplus from './assets/img/section/jsplus.png'
 import git from './assets/img/section/git.png'
 import framework from './assets/img/section/framework.png'
+import server from './assets/img/section/server.png'
+import style from './assets/img/section/style.png'
 import vid30fps from './assets/vid/videobg1.mp4'
 
 function App() {
@@ -95,7 +97,7 @@ function App() {
             </ul>
             </div>
       </section>
-      <section className='fiveth'>
+  <section className='fiveth'>
       <div className="left">
         <span className="section__title">
           Frameworks and libraries (React)
@@ -114,11 +116,13 @@ function App() {
       </div>
           <div className="center"></div>
           <div className="right">
-<img src={framework} alt="" />
+              <img src={framework} alt="" />
             </div>
       </section>
       <section className='sixth'>
-      <div className="left"></div>
+      <div className="left">
+        <img src={style} alt="" />
+      </div>
           <div className="center"></div>
           <div className="right">
             <span className='section__title'>Stylization</span>
@@ -129,7 +133,23 @@ function App() {
             </ul>
             </div>
       </section>
-
+<section>
+<div className="left">
+        <span className="section__title">
+        Server Development Basics
+        </span>
+        <ul>
+          <li>REST API</li>
+          <li>GraphQL</li>
+          <li>Node.js + Express</li>
+          <li>Databases (SQL/NoSQL)</li>
+        </ul>
+      </div>
+          <div className="center"></div>
+          <div className="right">
+<img src={server} alt="" />
+            </div>
+</section>
       </main>
       <footer>
         <div className="footer__start">

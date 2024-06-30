@@ -18,7 +18,7 @@
       }
 
       footer{
-        padding: 10px 5px;
+        padding: 10px 15px;
       }
 }
 
@@ -47,7 +47,11 @@
         width: 100%;
     }
 
-    .second, .fourth{
+    .second, .fourth , .sixth{
         flex-direction: column-reverse;
+    }
+
+    footer{
+        
     }
 }
