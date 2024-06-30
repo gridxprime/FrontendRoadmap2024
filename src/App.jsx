@@ -22,6 +22,7 @@ function App() {
         <video className='video' src={vid30fps} autoPlay muted loop></video>
         <div className='inner'>
           <span>Become a Frontend Developer today!
+            <br></br><br></br>
             
            Follow the roadmap outlined below to master the essential skills and tools needed in 2024.
 
