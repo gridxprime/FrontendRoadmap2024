@@ -150,6 +150,15 @@ function App() {
 <img src={server} alt="" />
             </div>
 </section>
+<section className='end'>
+  <span>By following this roadmap, you will not only learn
+     to create modern web applications but also keep your 
+     knowledge up-to-date, making you a sought-after specialist 
+     in the job market. Start your learning today and become
+     a professional in the world of frontend development!
+
+</span>
+</section>
       </main>
       <footer>
         <div className="footer__start">

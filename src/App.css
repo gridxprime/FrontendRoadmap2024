@@ -201,5 +201,17 @@ footer a{
 }
 
 .sixth{
+  background: #3f3f3f;
+}
 
+.end{
+  min-height: 1vh;
+  padding: 30px;
+
+}
+
+
+.end span{
+  line-height: 1.5;
+  letter-spacing: 2px;
 }
